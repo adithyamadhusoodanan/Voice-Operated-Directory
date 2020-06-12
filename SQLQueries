@@ -1,0 +1,40 @@
+CREATE DATABASE DATA
+
+USE DATA
+
+CREATE TABLE Directory(ID INT PRIMARY_KEY NOT NULL AUTO_INCREMENT, Name varchar(255),Department varchar(255),Number bigint);
+
+insert into DATA(Name,Department,Number)
+values('A Karthikeyan','EEE',886723646),
+('B Venkatesa Perumal','EEE',998086138),
+('Arun Dominic','EEE',875466009),
+('H Girisha Navada','EEE',944886927),
+('Krishnan C M C','EEE',953564742),
+('Manjunatha Sharma K','EEE',824247346),
+('Shashidhara Mecha Kotian','EEE',900841812),
+('Shubhanga K N','EEE',944938820),
+('Vignesh Kumar V','EEE',735889506),
+('Vinatha U','EEE',944889538),
+('Y SURESH','EEE',741106950),
+('Yashwant Kashyap','EEE',980591171),
+('Ananthanarayana V S','IT',824247355),
+('Jaidhar C D','IT',824247355),
+('Biju R Mohan','IT',824473558),
+('Anand Kumar M','IT',242473118),
+('Nagamma Patil','IT',822473559),
+('Dinesh Naik','IT',822473552),
+('P Santhi Thilagam','CS',824247340),
+('Chandrasekaran K','CS',824247406),
+('Alwyn Roshan Pais','CS',822473407),
+('Manu Basavaraju','CS',822473415),
+('Vani M','CS',842473405),
+('B R Chandavarkar','CS',824243408),
+('Ajay Pratap','CS',824247317),
+('Basavaraj Talawar','CS',988638394),
+('Mahendra Pratap Singh','CS',822473402),
+('Arun Kumar Shettigar','MECH',973165289),
+('Ranjeet Kumar Sahu','MECH',918267925),
+('Somasekhara Rao Todeti','MECH',798133890),
+('Saurabh Chandraker','MECH',998164004),
+('Sharnappa Joladarashi','MECH',888455535),
+('Vijay H Desai','MECH',944933296)
