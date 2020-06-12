@@ -4,7 +4,7 @@ USE DATA
 
 CREATE TABLE Directory(ID INT PRIMARY_KEY NOT NULL AUTO_INCREMENT, Name varchar(255),Department varchar(255),Number bigint);
 
-insert into DATA(Name,Department,Number)
+insert into Directory(Name,Department,Number)
 values('A Karthikeyan','EEE',886723646),
 ('B Venkatesa Perumal','EEE',998086138),
 ('Arun Dominic','EEE',875466009),
